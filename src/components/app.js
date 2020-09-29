@@ -1,13 +1,13 @@
-import { Router } from 'preact-router';
+import { Router } from 'preact-router'
 
-import Home from '../routes/home';
+import Home from '../routes/home'
 
 const App = () => (
-	<div id="app">
-		<Router>
-			<Home path="/" />
-		</Router>
-	</div>
+  <div id="app">
+    <Router>
+      <Home path="/" />
+    </Router>
+  </div>
 )
 
-export default App;
+export default App
