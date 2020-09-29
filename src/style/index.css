@@ -1,0 +1,113 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.red {
+	background-color: red;
+	height: 100%;
+	width: 100%;
+}
+
+.green {
+	background-color: green;
+	height: 100%;
+	width: 100%;
+}
+
+.product-image {
+	min-height: 600px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0px;
+}
+
+.swipeable-list-item {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.swipeable-list {
+	height: 100%;
+}
+
+.swipeable-list-item__content {
+	margin: 0px;
+	padding: 0px;
+}
+
+.full {
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+
+.details {
+	padding: 1em;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.product-thumb {
+	width: 70px;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.no-meals {
+	margin-top: 4em;
+}
+
+.meal-list {
+	/* remove default list styles */
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	/* remove spaces between li tags*/
+}
+
+.meal-list li {
+	vertical-align: top;
+	padding: 2%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.meal-list li img {
+	border-radius: 10px;
+	margin-bottom: -1.6em;
+}
+
+.meal-list li span {
+	font-size: 140%;
+	margin-left: 1em;
+	line-height: 3em;
+	
+}
